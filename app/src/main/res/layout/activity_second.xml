@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_back"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Boom Boom Puzzle"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:elevation="4dp"
+        app:cornerRadius="30sp"
+        android:backgroundTint="@color/lightgreen"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="START"
+        android:textSize="30sp"
+        android:elevation="4dp"
+        app:cornerRadius="30sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#16306E"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textStyle="bold"/>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bestResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="BEST RESULTS"
+        android:textSize="14dp"
+        android:elevation="4dp"
+        app:cornerRadius="30sp"
+        android:backgroundTint="#FD0000"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SETTINGS"
+        android:textSize="14dp"
+        android:elevation="4dp"
+        app:cornerRadius="30sp"
+        android:backgroundTint="#624F6D"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
