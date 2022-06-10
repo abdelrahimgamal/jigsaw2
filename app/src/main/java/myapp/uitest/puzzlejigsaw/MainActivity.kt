@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
         ss.setSpan(clickableSpan, 18, 32, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         policy.setText(ss);
-        policy.setMovementMethod(LinkMovementMethod.getInstance());
+        policy.setMovementMethod(LinkMovementMethod.getInstance())
 
     }
 }

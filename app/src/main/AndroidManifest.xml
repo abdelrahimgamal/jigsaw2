@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PuzzleJigsaw">
         <activity
+            android:name=".ScoresActivity"
+            android:exported="false" />
+        <activity
             android:name=".PuzzleActivity"
             android:exported="false" />
         <activity
